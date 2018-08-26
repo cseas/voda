@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="60dp"
+    android:background="@android:color/transparent"
+    android:layout_width="60dp">
+    <ImageView
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:visibility="gone"
+        android:src="@drawable/close_item"/>
+</LinearLayout>

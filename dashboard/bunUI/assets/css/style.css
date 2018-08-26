@@ -1,0 +1,129 @@
+/* ---- base ---- */
+.body {
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica;
+  color: white;
+  overflow: hidden;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.your-container {
+  display: block; // if it is not a block element
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+}
+.content {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    font-family: Raleway;
+    color: white;
+}
+
+.content h1 {
+    font-size: 8vw;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.devcontainer {
+    margin-right: 0;
+    text-transform: lowercase;
+		text-align: center;
+		padding: 0em 0em 0em 3em;
+}
+
+.banner {
+		width: 35em;
+		margin: 0 auto;
+		padding: 3em 3em 3em 3em;
+		height: 19em;
+		text-align: center;
+		background: rgba(0,0,0,0.5);
+		border-radius: 2em 2em 0 0;
+    text-transform: uppercase;
+}
+
+.lines {
+		padding-bottom: 4em;
+		font-size: 1.2em;
+    text-transform: lowercase;
+}
+
+.footer {
+		width: 35em;
+		margin: 0 auto;
+		padding: 1em 0em 0em 3em;
+		height: 5em;
+    text-transform: lowercase;
+		text-align: center;
+		background: rgba(225,225,225,0.7);
+		border-radius: 0 0 2em 2em;
+}
+
+.footertext {
+		font-size: 2em;
+		color: #000000;
+}
+
+.title {
+		font-size: 2em;
+		padding-bottom: 1em;
+}
+
+.fa {
+    color: white;
+}
+
+.fa:hover {
+    color: #AAA;
+}
+
+ul li {
+    display: inline;
+    padding: 4px;
+}
+
+ul {
+    margin: 0;
+    padding: 3px 0px 4px;
+}
+
+/* ---- particles.js container ---- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Here you should set what size you want your div to be
+when viewed on smartphone */
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+#particles-js {
+  width: 150%;
+  height: 100%;
+  position: absolute;
+  /*background-color: #252525;*/
+  background-color: hsl(120, 100%, 88%, 0.2);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
